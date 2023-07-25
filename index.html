@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="left-text">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+
+        <div class="right-container">
+            <div class="try-container">
+                <p class="try-text"><span class="try-span">Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+
+            <form id="form">
+                <input type="text" name="" id="firstname" placeholder="First Name" class="input">
+                <span class="error" role="alert" id="firstnameError" aria-hidden="true" aria-invalid="false">First Name cannot be empty</span>
+                <input type="text" name="" id="lastname" placeholder="Last Name" class="input">
+                <span class="error" role="alert" id="lastnameError">Last Name cannot be empty</span>
+                <input type="text" name="" id="email" placeholder="Email" class="input">
+                <span class="error" role="alert" id="emailError">Email cannot be empty</span>
+                <span class="error" role="alert" id="patternError">Looks like this is not an email</span>
+                <input type="text" name="" id="address" placeholder="Address" class="input">
+                <span class="error" role="alert" id="addressError">Address cannot be empty</span>
+                <input type="text" name="" id="password" placeholder="Password" class="input">
+                <span class="error" role="alert" id="passwordError">Password cannot be empty</span>
+
+                <button type="submit" id="submit">
+                  <p class="btn-text">Claim your free trial</p>
+                </button>
+
+                <small>By clicking the button, you are agreeing to our <a class="terms" href="#">Terms and Services</a></small>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p class="attribution">
+          Challenge by <a class="footer-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+          Coded by <a class="footer-link" href="https://www.frontendmentor.io/profile/Omaaar31" target="_blank">Omar.</a>
+        </p>
+      </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
